@@ -1,0 +1,4 @@
+numbers = [10, 25, 30, 45, 50]
+total = sum(numbers)
+print(f"The list is: {numbers}")
+print(f"The sum of all elements in the list is: {total}")
