@@ -1,0 +1,8 @@
+import pandas as pd
+
+try:
+    df = pd.read_csv('students.csv')
+    print("First 10 records from the CSV file:")
+    print(df.head(10))
+except FileNotFoundError:
+    print("Error: Could not find 'students.csv'. Please make sure the file exists in the correct directory.")
