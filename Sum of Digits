@@ -1,0 +1,9 @@
+num = int(input("Enter a number: "))
+total_sum = 0
+temp = abs(num)
+while temp > 0:
+    digit = temp % 10
+    total_sum += digit
+    temp //= 10
+
+print(f"The sum of the digits is: {total_sum}")
