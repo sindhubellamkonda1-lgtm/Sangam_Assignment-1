@@ -1,0 +1,7 @@
+n = int(input("Enter a number n: "))
+i = 1
+print(f"The first {n} natural numbers are:")
+while i <= n:
+    print(i, end=" ")
+    i += 1
+print()
