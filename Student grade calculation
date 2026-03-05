@@ -1,0 +1,21 @@
+name = input("Enter the student's name: ")
+maths = float(input("Enter marks for Maths: "))
+physics = float(input("Enter marks for Physics: "))
+chemistry = float(input("Enter marks for Chemistry: "))
+total_marks = maths + physics + chemistry
+percentage = (total_marks / 300) * 100
+if percentage >= 90:
+    grade = "A"
+elif percentage >= 80:
+    grade = "B"
+elif percentage >= 70:
+    grade = "C"
+elif percentage >= 60:
+    grade = "D"
+else:
+    grade = "Fail"
+print("\nStudent Result")
+print(f"Name: {name}")
+print(f"Total Marks: {total_marks} / 300")
+print(f"Percentage: {percentage:.2f}%")
+print(f"Grade: {grade}")
